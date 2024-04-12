@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sample-pod
+  labels:
+    app: myapp
+spec:
+  containers:
+  - name: igp1
+    image: soylemezom/igpapp
+    ports:
+    - containerPort: 80

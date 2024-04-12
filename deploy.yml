@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: igp1
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: igp1
+  template:
+    metadata:
+      labels:
+        app: igp1
+    spec:
+      containers:
+      - name: igp1
+        image: soylemezom/igpapp
+        ports:
+        - containerPort: 8080
