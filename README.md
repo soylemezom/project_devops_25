@@ -20,4 +20,4 @@ Integrating Docker with Ansible and writing playbooks for deployment.
 Deploying artifacts to the Kubernetes cluster.
 Monitoring resources using Grafana.
 By implementing these initiatives, ABC Technologies aims to transform the acquired business's operations, enhancing its competitiveness in the retail market and positioning it for sustained growth and success.
->>>>>>> master
+
